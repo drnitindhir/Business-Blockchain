@@ -1,0 +1,39 @@
+{
+  "exported_at": "2026-04-30T11:44:16.048360",
+  "transaction_count": 3,
+  "transactions": [
+    {
+      "transaction_type": "transfer",
+      "amount": 100000.0,
+      "currency": "USD",
+      "description": "loan",
+      "from_account": "cash",
+      "to_account": "ravi",
+      "reference_id": "0",
+      "metadata": {},
+      "timestamp": "2026-04-30T08:39:12.017963"
+    },
+    {
+      "transaction_type": "adjustment",
+      "amount": 500000.0,
+      "currency": "USD",
+      "description": "loan to ravi",
+      "from_account": "cash",
+      "to_account": "ravi",
+      "reference_id": "000",
+      "metadata": {},
+      "timestamp": "2026-04-30T08:44:46.084098"
+    },
+    {
+      "transaction_type": "transfer",
+      "amount": 1000.0,
+      "currency": "USD",
+      "description": "lent to akash",
+      "from_account": "cash",
+      "to_account": "akash",
+      "reference_id": "596",
+      "metadata": {},
+      "timestamp": "2026-04-30T11:35:00.104448"
+    }
+  ]
+}
